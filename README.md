@@ -82,7 +82,11 @@ Create a .env file in the project root directory and add your Flask secret key:
 - Submit the form to start tracking the price.
 - The application will fetch the current price and  store it in the database.
 - You will be redirected to the analysis page where you can see the price trend and predictions.
+## Screenshots
 
+![pc](https://github.com/techrun2477/Amazon_Price_Tracker/assets/153264201/a41761f1-9c0d-4f1c-b6ab-cf1c2e639504)
+
+![price tracker](https://github.com/techrun2477/Amazon_Price_Tracker/assets/153264201/df00587e-486a-412d-b98c-64b9feb225e8)
 
 ## Future Improvements
 - Implement user authentication to allow users to manage their tracked products.

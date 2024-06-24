@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis - Amazon Price Tracker{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h2 class="text-center">Price Analysis</h2>
+        <div class="text-center">
+            <img src="data:image/png;base64,{{ img_data }}" alt="Price Trend">
+        </div>
+        <div class="mt-4">
+            <p class="text-center">{{ stats_text|safe }}</p>
+        </div>
+        <div class="text-center">
+            <a href="{{ url_for('index') }}" class="btn btn-primary">Track Another Product</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Amazon Price Tracker{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2 class="text-center">Track Amazon Product Prices</h2>
+        <form method="POST" action="{{ url_for('track') }}">
+            <div class="form-group">
+                <label for="url">Product URL</label>
+                <input type="text" class="form-control" id="url" name="url" required>
+            </div>
+            <div class="form-group">
+                <label for="target_price">Target Price</label>
+                <input type="number" step="0.01" class="form-control" id="target_price" name="target_price" max="10000" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Track Price</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

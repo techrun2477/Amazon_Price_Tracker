@@ -1,0 +1,47 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+venv.bak/
+venv.cygwin/
+venv.nosync/
+venv.cfg
+
+# Ignore environment variables files
+.env
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore logs
+*.log
+
+# Ignore cache and temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore generated files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
